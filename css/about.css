@@ -1,0 +1,80 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+  background-image: url(../img/emilia-about.jpg);  
+  background-size: 75% 960px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  font-family: Open Sans;
+}
+
+ul.menu{
+  margin-top: 50px;  /* separacion del menu con el borde superior */
+  text-align: right; /* corre el menu a la derecha de la pagina */
+  padding: 20px 15px; /* grosor de la opacidad del menu */
+  background-color: rgba(255, 255, 255, 0.5); /* el que le da opacidad al menu */
+}  
+
+ul.menu a{
+  color: rgb(71, 71, 71);
+}
+
+ ul li{
+  list-style: none;
+} 
+
+ul.menu li{
+  display: inline;
+  padding: 0 2px; /* separaciones de las palabras en el menu */
+/*   border-left: 1px solid black; */ /* son las separaciones del menu, " | " es el palito*/
+  font-size: 25.9px; 
+}
+
+
+
+
+ul a i{
+  color: #000;
+}
+
+ul.redes{
+  text-align: right;
+  margin-top: 15px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+
+a{
+  text-decoration: none; /* saca lo subrayado a las etiquetas a, osea el menu */
+} 
+
+h1{
+  margin-top: 150px;
+  font-family: Raleway;
+  margin-left: 10px;
+  font-size: 90px;
+}
+
+h2{
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: Raleway;
+  color: #23A088;
+  font-weight: 300;
+  font-size: 34.6px;
+}
+
+p{
+  margin-top: 30px;
+  margin-left: 50px;
+  color: #23A088;
+}
+
+h2#segundo{       /*el subtitulo que esta abajo, el segundo h2*/
+  margin-top: 120px;
+  font-size:34.6px;
+}
+
